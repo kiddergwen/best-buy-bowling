@@ -20,6 +20,6 @@ After each player's turn is completed, their current score is printed.
 
 ![more than 10 pins invalid input](/more_than_ten.PNG)
 
-At the end of the game, the total scores, as well as a frame by frame record of the game is displayed.
+At the end of the game, the total scores, as well as a frame by frame record of the game are displayed.
 
 ![final scores displayed](/final_scores.PNG)
