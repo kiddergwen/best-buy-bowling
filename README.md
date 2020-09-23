@@ -13,6 +13,7 @@ Once the names of players are collected, play continues.
 The numbers of pins hit by each roll is collected.
 Invalid inputs are rejected.
 After each player's turn is completed, their current score is printed.
+
 ![entered scores demo 1](/enter_scores.PNG)
 
 ![entered scores demo 2](/enter_scores_1.PNG)
