@@ -148,7 +148,11 @@ if __name__ == '__main__':
                             p["score"] += num_pins
                         elif roll == 2:
                             if score_list[0] != 10:
-                                p["score"] += num_pins
+                                p["score"] += num_pins 
+                        elif roll == 3 and p["spare"] == 1: # Check for Old Spares
+                            p["score"] += num_pins # Add bonus roll to score
+                            p["spare"] = 0 # Reset spare value
+                            print(str(num_pins) + " added to score for spare")
 
                     # Check if Old Spare
                     if roll == 1 and p["spare"] == 1: # Can only have 1 spare at a time
